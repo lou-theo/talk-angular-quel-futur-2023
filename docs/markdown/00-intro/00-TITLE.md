@@ -1,6 +1,5 @@
 <!-- .slide: class="first-slide" -->
 
-# **Type talk - Nom talk**
+# **Sfeir Lunch - Quel futur pour Angular ?**
 
-## **Description**
-
+## **Explorons les grandes nouveautés à venir : Signals et flux de contrôle**
