@@ -1,6 +1,4 @@
-<!-- .slide: class="with-code" -->
-
-# Introduction à Zone.js
+# Aperçu de Zone.js
 
 Librairie qui permet de créer des zones d'exécution
 
