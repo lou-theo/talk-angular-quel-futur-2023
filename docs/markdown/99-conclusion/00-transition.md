@@ -1,3 +1,3 @@
-<!-- .slide: class="transition-bg-green-5" -->
+<!-- .slide: class="transition-bg-green-6" -->
 
-# New control flow syntax
+# Pour finir

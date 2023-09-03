@@ -1,3 +1,3 @@
-<!-- .slide: class="transition-bg-green-5" -->
+<!-- .slide: class="transition-bg-green-4" -->
 
 # Les Signals dans les composants

@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-bg-green-4" -->
+<!-- .slide: class="transition-bg-green-6" -->
 
 # Les Signals en action
 
