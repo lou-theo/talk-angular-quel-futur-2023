@@ -1,3 +1,5 @@
 <!-- .slide: class="transition-bg-green-5" -->
 
-# Pourquoi changer ? Pourquoi les Signals ?
+# Une solution à ces problèmes ?
+
+## Vers un nouveau système de réactivité
