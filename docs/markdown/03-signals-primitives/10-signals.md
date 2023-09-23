@@ -67,7 +67,7 @@ Notes:
 
 # Utilisation d'un Signal
 
-```typescript
+```typescript [1-4|6-7]
 const counter = signal(0); // 0
 counter.set(5); // 5
 counter.update((currentValue) => currentValue + 1); // 6
