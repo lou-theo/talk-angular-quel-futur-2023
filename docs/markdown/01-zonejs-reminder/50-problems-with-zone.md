@@ -18,10 +18,10 @@ Notes:
 
 # La magie Zone.Js a des coûts...
 
-- Temps de chargement du 1er rendu
-- Maintenance de Zone.Js pour Angular Team
-- Facilité de faire du code avec des problèmes de performance
-- ... et qui demande une grande compréhension de Zone.Js et Angular pour corriger
+- **Temps de chargement** du 1er rendu
+- **Maintenance** de Zone.Js pour Angular Team
+- Facilité de faire du code avec des **problèmes de performance**
+- ... et qui **demande une grande compréhension** de Zone.Js et Angular
 <!-- .element: class="list-fragment" -->
 
 Notes:

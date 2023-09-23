@@ -1,6 +1,6 @@
 # Les possibilités étudiées
 
-- Improving zone.js
+- Améliorer zone.js
 - setState-style APIs
 - Compiler-based reactivity
 - Proxies
