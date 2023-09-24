@@ -1,8 +1,7 @@
 # Quelques changements suppléméntaires pour le "for"
 
-
-- "track" devient obligatoire (SAUF avec les Signals)
-- "for" est reactif avec les signaux : itérer sur un Signal donne une liste de Signal
+- `track` devient obligatoire (SAUF avec les Signals)
+- `for` est reactif avec les signaux : itérer sur un Signal donne une liste de Signal
 - améliorations divers envisagée (built-in destructuration, "virtual scrolling", autres types de boucles, etc.)
 <!-- .element: class="list-fragment" -->
 
