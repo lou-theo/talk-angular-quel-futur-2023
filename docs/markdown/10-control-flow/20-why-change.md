@@ -1,15 +1,13 @@
-# Pourquoi changer ?
+# Pourquoi tout changer ?
 
-## Une fonctionnalité qui a 7 ans, n'est-elle pas suffisamment mature ?
-
-- Identification d'un certain nombre de "points de douleurs" et limites à la syntaxe actuelle
-- Syntaxe actuelle insuffisante pour fonctionner avec les Signals
-- Ratio risques / gains insuffisant pour améliorer la syntaxe actuelle
+- Points de douleurs et limites
+- Incompatibilité Signals
+- Amélioration trop risquée
 <!-- .element: class="list-fragment" -->
 
 Notes:
 
-- Angular est sorti en 2016
+- Angular est sorti en 2016 => 7 ans que c'est comme ça
 
 - Les pain points potentiels (ils ne sont pas explicités mais je suppose) :
 

@@ -18,10 +18,10 @@ Notes:
 
 # La magie Zone.Js a des coûts...
 
-- **Temps de chargement** du 1er rendu
-- **Maintenance** de Zone.Js pour Angular Team
-- Facilité de faire du code avec des **problèmes de performance**
-- ... et qui **demande une grande compréhension** de Zone.Js et Angular
+- Temps de **chargement**
+- **Maintenance** de Zone.Js
+- problèmes de **performance**
+- ... qui demandent une grande compréhension
 <!-- .element: class="list-fragment" -->
 
 Notes:
@@ -38,30 +38,37 @@ Notes:
 
 ##==##
 
+# Célèbre erreur
+
+<div class="full-center">
+ <img style='height: 50%' alt='gif' src="../../assets/images/ExpressionChangedAfterItHasBeenCheckedError.png">
+</div>
+
+Notes:
+
+- Demander comment régler l'erreur
+
+- Cette erreur vient de la manière dont fonctionne la détection de changement :
+
+  - Plusieurs API surtout concernant les enfants (queries, directives, etc.) se mettent à jour pendant la détection de changement
+  - La détection de changement est top-down
+
+##==##
+
 <!-- .slide: class="with-code max-height" -->
 
-# Erreur "Expression has changed after it was checked"
+# Célèbre erreur
 
-## Du code qui ressemble à un workaround
-
-```typescript [4-8]
-@Component(...)
-class AppComponent implements OnInit {
-  ngOnInit() {
-    this.myForm.valueChanges?.subscribe(() =>
-      setTimeout(() => {
-        this.updateUIRelatedState();
-      }),
-    );
-  }
-}
+```typescript
+setTimeout(() => {
+  this.updateUIRelatedState();
+});
 ```
 
 <!-- .element: class="big-code block" -->
 
 Notes:
-Cette erreur vient de la manière dont fonctionne la détection de changement :
 
-- Plusieurs API surtout concernant les enfants (queries, directives, etc.) se mettent à jour pendant la détection de changement
+- Seul manière de faire dans certains cas
 
-- La détection de changement est top-down
+- Utilisé dans le code d'Angular

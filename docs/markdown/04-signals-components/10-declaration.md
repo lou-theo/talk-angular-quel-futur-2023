@@ -5,7 +5,6 @@
 ```typescript [2]
 @Component({
   signals: true,
-  selector: 'temperature-calc',
   template: `<p>F: {{ fahrenheit() }}</p>`,
 })
 export class TemperatureCalc {

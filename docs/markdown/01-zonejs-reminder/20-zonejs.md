@@ -1,10 +1,11 @@
 # Aperçu de Zone.js
 
-Librairie qui permet de créer des zones d'exécution
-
-Angular est exécuté dans une zone
-
-<br/>
+<div style='border-color: black; border-style: solid; width: 60%;height: 50%;padding: 50px'>
+Zone.js
+<div style='border-color: red; border-style: solid; width: 80%;height: 30%;padding: 50px;margin: 50px'>
+Angular Zone
+</div>
+</div>
 
 Notes:
 
@@ -18,15 +19,20 @@ Notes:
 
 # Lors de la détection de changement
 
-- L'ENSEMBLE des composants est parcouru de manière séquentielle
-- On exécute les **lifecycle hooks**
-- Pour chaque expression dans le template, on **compare la valeur actuelle / précédente**
-- Si la valeur a changé, on **déclenche le rendu du composant**
+- Parcourt des composants
+- Lifecycle hooks
+- Comparaison la valeur actuelle / précédente
+- Rendu éventuel du composant
 <!-- .element: class="list-fragment" -->
 
 Notes:
 
-- On part du composant root et on descend dans l'arbre
-- on fait tout ça pour le moindre petit event (scroll, setTimeout, etc.)
+- pour le moindre event
 
-- Lifecycles : ngOnChanges, ngDoCheck, ngAfterContentChecked, ngAfterViewChecked
+- L'ENSEMBLE des composants est parcouru de manière séquentielle depuis composant root vers bas
+
+- On exécute les **lifecycle hooks**
+
+- Pour chaque expression dans le template, on **compare la valeur actuelle / précédente**
+
+- Si la valeur a changé, on **déclenche le rendu du composant**

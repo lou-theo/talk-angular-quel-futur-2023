@@ -25,10 +25,10 @@ Notes:
 
 # Le cas RxJs
 
-- RxJs est aynchrone par nature
-- Travailler avec cet asynchronisme appauvrirait l'expérience développeur
-- Il est très courant d'avoir des side effects
-- RxJs n'est pas aimé de tous
+- **Aynchrone** par nature
+- Asynchronisme => **mauvaise DX**
+- **Side effects** répandus
+- Certains le détestent
 <!-- .element: class="list-fragment" -->
 
 Notes:
@@ -50,7 +50,7 @@ Notes:
 # RxJs glitch
 
 <!-- prettier-ignore-start -->
-```typescript
+```typescript [1|2|3-6|8-9]
 const counter$ = new BehaviorSubject(0);
 const isEven$ = counter$.pipe(map((value) => value % 2 === 0));
 const message$ = combineLatest(
@@ -70,6 +70,7 @@ counter$.next(1);
 1 is even
 1 is odd
 ```
+<!-- .element: class="fragment" -->
 
 Notes:
 

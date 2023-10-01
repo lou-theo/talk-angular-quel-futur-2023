@@ -11,4 +11,6 @@ Signals are not a new idea in the framework space - Preact, Solid, and Vue all e
 </blockquote>
 
 Notes:
-- La doc de VueJs indique que l'idée date de plus de 10 ans en citant "Knockout observables" & "Meteor Tracker"
+
+- La doc de VueJs indique que l'idée date de plus de 10 ans en citant
+  - "**Knockout observables**" & "**Meteor Tracker**"

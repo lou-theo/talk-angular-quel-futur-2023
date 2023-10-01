@@ -2,7 +2,7 @@
 
 # Changement des Inputs / Outputs ! 🤯
 
-```typescript [3-7|9]
+```typescript [3-4|5-7|9]
 @Component(...)
 class AppComponent {
   firstName = input<string>(); // Signal<string | undefined>

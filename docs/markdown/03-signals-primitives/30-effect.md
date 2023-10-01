@@ -6,24 +6,12 @@
 
 ```typescript
 function effect(
-  effectFn: (onCleanup: (fn: () => void) => void) => void,
-  options?: CreateEffectOptions
+  effectFn: (cleanupFunction) => void,
+  options?: { ..., allowSignalWrites?: boolean}
 ): EffectRef;
 ```
 
 <!-- .element: class="big-code block" -->
-
-```typescript [4]
-interface CreateEffectOptions {
-  injector?: Injector
-  manualCleanup?: boolean
-  allowSignalWrites?: boolean
-}
-
-interface EffectRef {
-  destroy(): void
-}
-```
 
 Notes:
 

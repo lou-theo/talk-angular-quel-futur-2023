@@ -6,6 +6,7 @@
 - View <= **Angular Signals**
 - DOM element <= **SolidJS**
 - Binding
+<!-- .element: class="list-fragment" -->
 
 Notes:
 
@@ -20,40 +21,3 @@ Notes:
   - Cela facilite l'intégration avec Zone.Js qui travaille déjà avec ce niveau
 
 - VueJs & react utilisent un virtualDOM. VueJs réfléchit à se positionner comme SolidJS (DOM Element)
-
-##==##
-
-<!-- .slide: class="with-code max-height" -->
-
-# Granularité : View, les implications
-
-```typescript [2,6,7,10]
-@Component({
-  template: `<p>Count {{ count() }} - {{ name }}</p>
-    <button (click)="increment()">Increment count</button>`,
-})
-export class SimpleCounter {
-  count = signal(0);
-  name = 'Morgan';
-
-  increment() {
-    this.count.update((c) => c + 1);
-  }
-}
-```
-
-<!-- .element: class="big-code block" -->
-
-Notes:
-
-- Petit spoil sur la syntaxe des signals, on va en parler juste après
-
-- Ce composant zoneless utilise 1 signal et 1 variable non réactive dans son template
-
-- si `count` est maj, le template aussi
-
-- si name venait à changer, le template ne serait pas maj
-
-- SAUF ! Si le Signal est ensuite maj car ça déclenche une détection de changement au niveau de la View !
-
-- La team Angular est actuellement en réflexion sur ce comportement et réfléchit à ajouter des warnings en cas d'utilisation d'une var non Signal et non read-only dans un template par exemple

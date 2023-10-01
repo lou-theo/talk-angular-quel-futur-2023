@@ -21,7 +21,7 @@ Notes:
 
 - pour computed et effect
 
-- Vous l'aurez surement remarqué, on n'explicit pas les dépendances
+- Vous l'aurez surement remarqué, on n'explicite pas les dépendances
   - Traçage automatique des dépendances, ces dernières devant être des Signals
 
 - Gestion dynamique des dépendances en fonction de la dernière computation

@@ -1,21 +1,25 @@
-# Buts et prérequis de ce système
+# Prérequis de ce système
 
-- **Granularité** au niveau du composants ou plus finement
-- Permettre la déclaration d'un **état dérivé** d'autres variables
-- Avoir une bonne interopérabilité avec **RxJs**
-- Avoir un **accès synchrone** à la donnée
-- Être sans **side effects** et sans **glitch**
-- La gestion des **dépendances** (réactives) doit être simples
+- **Granularité**
+- **Accès synchrone** à la donnée
+- Permettre des **états dérivés**
+- Interopérabilité avec **RxJs**
+- Gestion simple des **dépendances**
+- Sans **side effects** et sans **glitch**
 <!-- .element: class="list-fragment" -->
 
 Notes:
 
-- Un des objectif premier est d'avoir une détection fine du changement. La précision exacte est à déterminer
+- détection fine du changement
+  - niveau composant
+  - précision exacte à déterminer
 
-- computed : Feature assez demandée, les getters étant non optimisés, les pipes verbeux et pas forcément le plus adapté
+- computed
+  - Feature assez demandée
+  - getters non optimisés, les pipes verbeux
 
-- accès synchrone requis pour tout ce qui est binding notamment
+- accès synchrone => binding DOM
 
-- side effect : la donnée ne doit pas être modifiée ou déclencher d'opération
+- side effect => lecture ne doit rien modifier
 
-- on reviendra plus tard sur le glitch free
+- glitch free => plus tard dans les slides

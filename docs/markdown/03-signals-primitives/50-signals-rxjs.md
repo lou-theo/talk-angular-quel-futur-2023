@@ -7,7 +7,6 @@
 ```typescript
 function toObservable<T>(
   source: Signal<T>,
-  options?: { injector?: Injector },
 ): Observable<T>;
 ```
 

@@ -16,10 +16,12 @@ Notes:
 
 2 sujets distincts :
 
-- Savoir si l'état de l'application a (éventuellement) changé
-- Savoir ce qui a changé
+- Quelque chose a-t-il changé ?
+- Qu'est ce qui a changé ?
+<!-- .element: class="list-fragment" -->
 
 Notes:
 
 - 1er sujet : savoir quand déclencher la détection de changement
+
 - 2ème sujet : que fait la détection de changement

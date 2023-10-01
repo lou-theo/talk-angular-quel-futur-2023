@@ -9,12 +9,13 @@
 # Des mécontents et quelques incompréhensions
 
 - "Plutôt que de bosser sur un non problème, ça vous dirait de faire de la feature ?"
-- Incompréhension par rapport à RxJs
-- Peur de la migration engendrée
-- confusion d'avoir 2 systèmes de réactivité
+- **Incompréhension** par rapport à RxJs
+- **Peur** de la migration engendrée
+- **Confusion** d'avoir 2 systèmes de réactivité
 <!-- .element: class="list-fragment" -->
 
 Notes:
+
 - J'ai été surpris de la virulance de certains commentaires
 
 - Pour RxJs : certains ne comprennent pas pourquoi ça n'est pas suffisant, d'autres ont l'impression qu'Angular cherche à le remplacer
