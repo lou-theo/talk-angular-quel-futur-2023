@@ -5,7 +5,7 @@
 - Permettre des **états dérivés**
 - Interopérabilité avec **RxJs**
 - Gestion simple des **dépendances**
-- Sans **side effects** et sans **glitch**
+- Sans **side effects**
 <!-- .element: class="list-fragment" -->
 
 Notes:
@@ -21,5 +21,3 @@ Notes:
 - accès synchrone => binding DOM
 
 - side effect => lecture ne doit rien modifier
-
-- glitch free => plus tard dans les slides

@@ -36,7 +36,7 @@ Notes:
 
 # Révolution du 2-way binding
 
-```typescript [3,7,10]
+```typescript [3|7]
 @Component(...)
 class SomeCheckbox {
   checked = model(false); // WritableSignal<boolean>

@@ -6,7 +6,6 @@ export const slides = [
   "01-zonejs-reminder/50-problems-with-zone.md",
   "02-why-signals/00-transition.md",
   "02-why-signals/10-goals.md",
-  "02-why-signals/20-community-objections.md",
   "02-why-signals/30-studied-alternatives.md",
   "02-why-signals/40-signals-overview.md",
   "02-why-signals/60-local-change-detection.md",

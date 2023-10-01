@@ -1,4 +1,4 @@
-# Ca manque pas de decorateurs tout ça ? 🤔
+# Ca ne manque pas de décorateurs tout ça ? 🤔
 
 <blockquote class='fragment'>
 <cite>

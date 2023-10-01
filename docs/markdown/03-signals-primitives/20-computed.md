@@ -7,7 +7,6 @@
 ```typescript
 function computed<T>(
   computation: () => T,
-  options?: { equal?: (a: T, b: T) => boolean }
 ): Signal<T>;
 ```
 

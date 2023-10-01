@@ -13,5 +13,5 @@ Notes:
 - si on veut profiter des Signals on va devoir s'en servir
 
 - Migration automatique prévue
-- 
+
 - Solutions envisagées en cas de fail migration comme avec Material : Création d'un clone de la directive dans le projet

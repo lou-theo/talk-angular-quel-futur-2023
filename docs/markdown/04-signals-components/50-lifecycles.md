@@ -49,7 +49,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center fragment">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-0.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-0.png">
 </div>
 
 Notes:
@@ -61,7 +61,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-1.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-1.png">
 </div>
 
 Notes:
@@ -71,7 +71,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-2.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-2.png">
 </div>
 
 Notes:
@@ -81,7 +81,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-3.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-3.png">
 </div>
 
 Notes:
@@ -91,7 +91,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-4.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-4.png">
 </div>
 
 Notes:
@@ -101,7 +101,7 @@ Notes:
 # Et les anciens lifecycles ?
 
 <div class="full-center">
- <img style='height: 90%' alt='angular survey' src="../../assets/images/lifecycle-hooks/step-5.png">
+ <img style='height: 90%' alt='lifecycles' src="../../assets/images/lifecycle-hooks/step-5.png">
 </div>
 
 Notes:

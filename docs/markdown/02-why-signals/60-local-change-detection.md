@@ -1,10 +1,10 @@
 # Quel niveau de granularité ?
 
-- Entire application <= **Zone.js**
-- Component tree
-- Individual components
+- Application <= **Zone.js**
+- Arbre de composants
+- Composant
 - View <= **Angular Signals**
-- DOM element <= **SolidJS**
+- Element DOM <= **SolidJS**
 - Binding
 <!-- .element: class="list-fragment" -->
 

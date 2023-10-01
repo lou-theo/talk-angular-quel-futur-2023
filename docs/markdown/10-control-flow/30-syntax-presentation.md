@@ -14,13 +14,11 @@ Notes:
 
 ##==##
 
-<!-- .slide: class="two-column-layout" -->
+<!-- .slide: class="two-column with-code" -->
 
 # If
 
-##--##
-
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="" -->
 
 ```angular2html
 {#if cond.expr}
@@ -36,8 +34,6 @@ Notes:
 
 ##--##
 
-<!-- .slide: class="with-code" -->
-
 ```angular2html
 @if (cond.expr) {
   Main case was true!
@@ -48,7 +44,7 @@ Notes:
 }
 ```
 
-<!-- .element: class="big-code block" -->
+<!-- .element: class="big-code block" style="margin-top:200px" -->
 
 Notes:
 
@@ -58,13 +54,11 @@ Notes:
 
 ##==##
 
-<!-- .slide: class="two-column-layout" -->
+<!-- .slide: class="two-column with-code" -->
 
 # For
 
-##--##
-
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="" -->
 
 ```angular2html
 <ul>
@@ -92,7 +86,7 @@ Notes:
 </ul>
 ```
 
-<!-- .element: class="big-code block" -->
+<!-- .element: class="big-code block" style="margin-top:200px" -->
 
 Notes:
 
@@ -111,13 +105,9 @@ Notes:
 
 ##==##
 
-<!-- .slide: class="two-column-layout" -->
+<!-- .slide: class="two-column with-code  max-height" -->
 
 # Switch
-
-##--##
-
-<!-- .slide: class="with-code max-height" -->
 
 ```angular2html
 {#switch kind}
@@ -148,4 +138,4 @@ Notes:
 }
 ```
 
-<!-- .element: class="big-code block" -->
+<!-- .element: class="big-code block" style="margin-top:200px" -->

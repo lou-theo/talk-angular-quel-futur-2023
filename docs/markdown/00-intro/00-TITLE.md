@@ -1,5 +1,8 @@
-<!-- .slide: class="first-slide" -->
+<!-- .slide: class="two-column" data-background="./assets/images/affiche.png" -->
 
-# **Sfeir Lunch - Quel futur pour Angular ?**
+##--##
 
-## **Signals et flux de contrôle**
+<div style='margin-top: 45%'>
+  <h1>Quel futur pour Angular ?</h1>
+  <h2>Signals et flux de contrôle</h2>
+</div>

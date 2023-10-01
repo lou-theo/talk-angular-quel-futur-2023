@@ -46,7 +46,6 @@ Notes:
 ```typescript
 function signal<T>(
   initialValue: T,
-  options?: { equal?: (a: T, b: T) => boolean }
 ): WritableSignal<T>;
 ```
 <!-- prettier-ignore-end -->
